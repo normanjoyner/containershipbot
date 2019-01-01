@@ -1,0 +1,25 @@
+{
+  "name": "@containership/containershipbot",
+  "private": true,
+  "dependencies": {
+    "probot-app-pr-title": "containership/probot-app-pr-title#62bc86737f306169ca1c8150a7dbbb8a646f25db",
+    "probot-app-release": "containership/probot-app-release#b90b1ed20a5ec0c2e0842a868091b7c342c72095",
+    "probot-app-release-notes": "containership/probot-app-release-notes#d23d4f2e7a072af5549e789bd7276cae8f01fbe4",
+    "probot-settings": "containership/probot-settings#19a0a6106cf8f8c66383de48bd367bc70f3fa5bd",
+    "probot-stale": "containership/stale#5843b68f819547bdecc9d4a367a78f921055164b",
+    "triage-new-issues": "containership/triage-new-issues#3d9290e8a1f2ac1219ac165016831c64d493aac5"
+  },
+  "scripts": {
+    "start": "probot run"
+ },
+ "probot": {
+   "apps": [
+     "probot-app-pr-title",
+     "probot-app-release",
+     "probot-app-release-notes",
+     "probot-settings",
+     "probot-stale",
+     "triage-new-issues"
+   ]
+ }
+}
